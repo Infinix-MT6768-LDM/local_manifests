@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Infinix-MT6768-LDM"
+           fetch="https://github.com/Infinix-MT6768-LDM"
+           revision="eleven"/>
+
+ <!-- Device Trees -->
+  <project path="device/infinix/X682C" name="android_device_infinix_X682C" remote="Infinix-MT6768-LDM"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/infinix/X682C" name="android_vendor_infinix_X682C" remote="Infinix-MT6768-LDM"/>
+  
+ <!-- Extras -->
+  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="Redmi-MT6768"/>
+  <project path="vendor/mediatek/interfaces" name="PixelExperience/vendor_mediatek_interfaces" remote="github" revision="eleven"/>
+
+</manifest>
