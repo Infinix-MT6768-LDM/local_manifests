@@ -5,11 +5,15 @@
            fetch="https://github.com/Infinix-MT6768-LDM"
            revision="eleven"/>
 
+  <remote  name="Layeard"
+           fetch="https://github.com/Layeard"
+           revision="lineage-18.1"/>
+
  <!-- Device Trees -->
-  <project path="device/infinix/X682C" name="android_device_infinix_X682C" remote="Infinix-MT6768-LDM"/>
+  <project path="device/infinix/X682C" name="android_device_infinix_hot10" remote="Layeard"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/infinix/X682C" name="android_vendor_infinix_X682C" remote="Infinix-MT6768-LDM"/>
+  <project path="vendor/infinix/hot10" name="android_vendor_infinix_hot10" remote="Layeard"/>
   
  <!-- Extras -->
   <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="Infinix-MT6768-LDM"/>
