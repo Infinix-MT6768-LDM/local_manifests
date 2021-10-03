@@ -10,7 +10,7 @@
            revision="lineage-18.1"/>
 
  <!-- Device Trees -->
-  <project path="device/infinix/X682C" name="android_device_infinix_hot10" remote="Layeard"/>
+  <project path="device/infinix/hot10" name="android_device_infinix_hot10" remote="Layeard"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/infinix/hot10" name="android_vendor_infinix_hot10" remote="Layeard"/>
